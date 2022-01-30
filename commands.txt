@@ -9,7 +9,7 @@ git config user.email aliaksandr.batskalevich@gmail.com
 	
 	Основные команды
 git init	-	создать локальный репозиторий
-git remote add origin https://github.com/obemgcabazn/*имя репозитория*.git -  привязываем папку к нашему репозиторию на GitHub (origin - это синоним "удаленного репозитория")
+git remote add origin https://github.com/obemgcabazn/*имя репозитория*.git - привязываем папку к нашему репозиторию на GitHub (origin - это синоним "удаленного репозитория")
 git status	-	статус работы на данный момент
 git log		-	посмотреть на историю коммитов в ветке
 git diff	-	посмотреть на изменения файлов в состоянии modified
