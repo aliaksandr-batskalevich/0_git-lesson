@@ -9,6 +9,7 @@ git config user.email aliaksandr.batskalevich@gmail.com
 	
 	Основные команды
 git init	-	создать локальный репозиторий
+git remote add origin https://github.com/obemgcabazn/*имя репозитория*.git -  привязываем папку к нашему репозиторию на GitHub (origin - это синоним "удаленного репозитория")
 git status	-	статус работы на данный момент
 git log		-	посмотреть на историю коммитов в ветке
 git diff	-	посмотреть на изменения файлов в состоянии modified
@@ -23,6 +24,8 @@ git checkout <ID commit> - просмотр коммита (возвращени
 git revert <ID commit> - отмена коммита (не удаляет!!! - создает новый коммит с отменой какого-либо)
 git reset <ID commit> - удаление коммитов, которые идут после ID c сохранением конечного кода
 git reset <ID commit> --hard - удаление коммитов, которые идут после ID c возвращением кода указанного коммита
+git push origin master - отправляет файл на сервер
+git push -u origin master - отправляет файл на сервер (чтобы не вводить каждый раз логин/пароль)
 
 	Работа с .gitignore
 *.class		-	игнорирование всех файлов с расширением .class
